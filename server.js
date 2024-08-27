@@ -5,10 +5,10 @@ const { Pool } = require('pg');
 
 const app = express();
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
+  user: 'nursery',
+  host: 'dpg-cr6ua0q3esus7393glhg-a',
   database: 'nursery',
-  password: '6598&Ravi',
+  password: 'VYFehyYqf9aM04Eg7JQy3tPncPg7ZHqv',
   port: 5432,
 });
 
